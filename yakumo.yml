@@ -1,0 +1,22 @@
+- id: lkiuq1
+  name: yakumo
+  config:
+    pipeline:
+      build:
+        - tsc
+        - esbuild
+        - client
+      clean:
+        - tsc --clean
+- id: 97azq4
+  name: yakumo-esbuild
+- id: cpypir
+  name: yakumo-tsc
+- id: yen1qq
+  name: '@koishijs/client/lib'
+- id: ypi0hy
+  name: yakumo/run
+- id: htw76v
+  name: yakumo/publish
+- id: 22xso4
+  name: yakumo/upgrade
