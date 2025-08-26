@@ -26,6 +26,6 @@ jobs:
         run: npm run build
 
       - name: Publish
-        run: npm run pub
+        run: npm run pub steaminfo2san
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
